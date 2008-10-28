@@ -1,4 +1,4 @@
-This plugin allows you to deploy with Capistrano git repositories those has
+This plugin allows your Capistrano to deploy git repositories those have
 multiple-level nested submodules in them.
 
 By default Capistrano issues git submodule init && git submodule update
