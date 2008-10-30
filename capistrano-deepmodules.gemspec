@@ -17,4 +17,5 @@ Gem::Specification.new do |s|
   s.author = "Oleg Ivanov"
   s.email = "morhekil@morhekil.net"
   s.homepage = "http://speakmy.name"
+  s.rubyforge_project = 'capistrano-deepmodules'
 end
