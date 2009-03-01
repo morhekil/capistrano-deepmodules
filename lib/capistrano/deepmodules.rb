@@ -45,7 +45,7 @@ module Capistrano
             run("cd #{dir} && #{source.submodule('status')}") do |state, stream, text|
               # parsing the output of "git submodule status" command
               # and collecting paths of all submodules into an array
-              submodules = text.split(/\n/).collect do |submodule|
+              submodules += text.split(/\n/).collect do |submodule|
                 $~[1] if submodule.rstrip =~ /.\w{40} ([^()]+)($| \(.*\)$)/
               end
             end

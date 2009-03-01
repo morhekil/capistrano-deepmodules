@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = 'capistrano-deepmodules'
-  s.version = "0.1"
-  s.date     = "2008-10-28"
+  s.version = "0.2"
+  s.date     = "2009-03-01"
   s.summary = "Capistrano plugin to deploy Git repos with nested submodules."
   s.description = %{This plugin allows you to easily deploy git repositories with
   submodules nested at more then one level.%}
