@@ -4,7 +4,8 @@ Gem::Specification.new do |s|
   s.date     = "2009-03-01"
   s.summary = "Capistrano plugin to deploy Git repos with nested submodules."
   s.description = %{This plugin allows you to easily deploy git repositories with
-  submodules nested at more then one level.%}
+    the submodules nested at more then one level.%}
+
   s.has_rdoc = false
   
   s.files = ['lib/capistrano/deepmodules.rb',
@@ -16,6 +17,6 @@ Gem::Specification.new do |s|
 
   s.author = "Oleg Ivanov"
   s.email = "morhekil@morhekil.net"
-  s.homepage = "http://speakmy.name"
+  s.homepage = "http://github.com/morhekil/capistrano-deepmodules"
   s.rubyforge_project = 'capistrano-deepmodules'
 end
